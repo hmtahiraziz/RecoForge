@@ -1,0 +1,51 @@
+# Scripts directory .gitignore
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Backup files
+*.backup
+*.bak
+*.old
+*.orig
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Sensitive files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+secrets/
+
+# AWS credentials
+.aws/
+aws-credentials
+
+# Local development
+local/
+dev/
+test/
