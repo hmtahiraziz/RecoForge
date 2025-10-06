@@ -1,0 +1,369 @@
+# Global gitignore for the entire project
+
+# Environment files
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# IDE and Editor files
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+
+
+# Storybook build outputs
+.out
+.storybook-out
+
+# Temporary folders
+tmp/
+temp/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfplan
+*.tfplan.*
+
+# AWS
+.aws/
+
+# Docker
+.dockerignore
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Local development
+local/
+dev/
+
+# Recommendations system specific files
+data/
+!data/products-data.json
+index/
+*.jsonl
+*.npy
+*.index
+embeddings.npy
+faiss.index
+id_map.jsonl
+meta.jsonl
+catalog.jsonl
+manifest.json
+
+# Test files and temporary scripts
+test_*.py
+debug_*.py
+*_test.py
+*_simple.py
+*_cli.py
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic versions (keep structure but ignore auto-generated)
+# alembic/versions/*.py
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# FastAPI specific
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OpenAI API keys and sensitive data
+openai_key.txt
+api_keys.txt
+secrets.txt
+
+# Large data files
+*.csv
+*.json
+*.xlsx
+*.xls
+*.parquet
+
+# Model files and embeddings
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.bin
+
+# Cache directories
+.cache/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+
+# IDE specific
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+logs/
+*.out
+*.err
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Node modules (if any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker volumes and data
+docker-data/
+volumes/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+
+# Compressed files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Media files (if any)
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Large binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Configuration files with sensitive data
+config.local.py
+settings.local.py
+local_settings.py
+config.bat
